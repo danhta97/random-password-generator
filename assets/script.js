@@ -26,7 +26,7 @@ var passwordLength = function() {
 
 var passwordCharacters = function() {
   var characters = ``;
-  var numbers = '123456789';
+  var numbers = '0123456789';
   var lowerCase = `abcdefghijklmnopqrstuvwxyz`;
   var upperCase = `ABCDEFGHIJKLMNOPQRSTUVWXYZ`;
   var specialChar = `!@#$%^&*()-=_'",<.>/?[{]}`;
