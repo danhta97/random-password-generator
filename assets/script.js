@@ -26,12 +26,18 @@ var passwordLength = function() {
 
 var passwordCharacters = function() {
   var characters = ``;
+  var numbers = '123456789';
   var lowerCase = `abcdefghijklmnopqrstuvwxyz`;
   var upperCase = `ABCDEFGHIJKLMNOPQRSTUVWXYZ`;
   var specialChar = `!@#$%^&*()-=_'",<.>/?[{]}`;
 
   while (!characters) {
-    alert(`Your password can contain at least one of the following: Lower Case, upper Case, and/or special Chracters.`);
+    alert(`Your password can contain at least one of the following: Numbers, Lower Case, Upper Case, and/or Special Chracters.`);
+
+    var numberConfirm = confirm(`Numbers? OK = YES Cancel = NO`);
+    if (numberConfirm) {
+      characters = characters + numbers;
+    }
 
     var lowerConfirm = confirm(`Lower case characters? OK = YES Cancel = NO`);
     if (lowerConfirm) {

@@ -6,7 +6,7 @@ The purpose of this is to offer a program to randomly generate a new password wi
 
 
 ## How to Use:
-1. Choose wether you need Lowercase, Uppercase, Numbers, Special Characters.
+1. Choose whether you need Lowercase, uppercase, numbers, npecial Characters.
 2. Click generate password button.
 3. Copy password.
 4. Use password however you please.
